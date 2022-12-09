@@ -1,0 +1,7 @@
+<view wx:if = '{{showLBSk}}'>
+  <block wx:for="{{skeletonRegion}}" wx:key = 'key'>
+    <view class = 'LB_item LB_item_bg'
+      style = 'width:{{item.width}}px;height:{{item.height}}px;border-radius:{{item.borderRadius}};left:{{item.left}}px;top:{{item.top}}px;'>
+    </view>
+  </block>
+</view>

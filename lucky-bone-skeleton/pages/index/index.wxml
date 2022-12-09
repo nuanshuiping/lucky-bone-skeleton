@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<LB-skeleton selectClass = 'lb_sk' showLBSk = '{{true}}'/>
+<view class="container lb_sk">
+  <view class="userinfo">
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar lb_sk_rect" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname lb_sk_rect">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto lb_sk_rect">{{motto}}</text>
+  </view>
+  <!-- button -->
+  <view class = 'user_btn lb_sk_rect'>提交</view>
+</view>
